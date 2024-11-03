@@ -55,3 +55,4 @@ Flash: [=         ]  11.0% (used 720281 bytes from 6553600 bytes)
 ##[BOOT]#       Free PSRAM: 8385851 
 ```
 
+Działa!!!!
