@@ -46,6 +46,9 @@ void loop() {
 # Monitor
 
 ```
+RAM:   [=         ]  14.6% (used 47780 bytes from 327680 bytes)
+Flash: [=         ]  11.0% (used 720281 bytes from 6553600 bytes)
+
 ##[BOOT]#       Total heap: 365636  
 ##[BOOT]#       Free heap: 304228   
 ##[BOOT]#       Total PSRAM: 8386231
