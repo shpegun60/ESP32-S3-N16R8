@@ -12,7 +12,7 @@
 1) move all this files to ***{ProjectPath} / boards***
 2) edit **platformio.ini** file:
 
-```
+```cpp
 ; Flash: 16MB QD, PSRAM: 8MB OT
 [env:ESP32-S3-DevKitC-1-N16R8]
 platform = espressif32
