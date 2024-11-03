@@ -22,5 +22,33 @@ framework = arduino
 
 monitor_speed = 115200
 ```
+# Test code
 
-   
+```cpp
+#include "Arduino.h"
+
+#define BOOTLOG( ... ) { char buf[120]; sprintf( buf, __VA_ARGS__ ) ; Serial.print("##[BOOT]#\t"); Serial.println(buf); }
+
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+
+  BOOTLOG("Total heap: %d", ESP.getHeapSize());
+  BOOTLOG("Free heap: %d", ESP.getFreeHeap());
+  BOOTLOG("Total PSRAM: %d", ESP.getPsramSize());
+  BOOTLOG("Free PSRAM: %d", ESP.getFreePsram());
+  delay(1000);
+}
+```
+
+# Monitor
+
+```
+##[BOOT]#       Total heap: 365636  
+##[BOOT]#       Free heap: 304228   
+##[BOOT]#       Total PSRAM: 8386231
+##[BOOT]#       Free PSRAM: 8385851 
+```
+
