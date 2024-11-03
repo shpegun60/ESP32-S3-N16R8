@@ -3,6 +3,6 @@
 * **default_16MB.csv**  this is basic partition file with minimum 3.5Mb spiffs file system
 
 
-
+## Other
 * You can find other partition files [this](https://github.com/espressif/arduino-esp32/tree/master/tools/partitions)
 * And other board description files [this](https://github.com/Jason2866/platform-espressif32/tree/Arduino/IDF5/boards)
