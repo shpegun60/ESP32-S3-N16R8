@@ -7,3 +7,20 @@
 ## Other
 * You can find other partition files [this](https://github.com/espressif/arduino-esp32/tree/master/tools/partitions)
 * And other board description files [this](https://github.com/Jason2866/platform-espressif32/tree/Arduino/IDF5/boards)
+
+# Instrustions
+1) move all this files to ***{ProjectPath} / boards***
+2) edit **platformio.ini** file:
+
+```
+; Flash: 16MB QD, PSRAM: 8MB OT
+[env:ESP32-S3-DevKitC-1-N16R8]
+platform = espressif32
+board = ESP32-S3-DevKitC-1-N16R8 ; 16 MB Flash, 8MB octo PSRAM
+framework = arduino
+
+
+monitor_speed = 115200
+```
+
+   
