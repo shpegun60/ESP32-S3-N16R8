@@ -9,7 +9,7 @@
 * And other board description files [this](https://github.com/Jason2866/platform-espressif32/tree/Arduino/IDF5/boards)
 
 # Instrustions
-1) move all this files to ***{ProjectPath} / boards***
+1) move all this files to ***{ProjectPath} / boards ***
 2) edit **platformio.ini** file:
 
 ```cpp
